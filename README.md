@@ -1,33 +1,45 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# BokBot.org
 
+[![license][license-image]][license-url] [![Build Status][travis-image]][travis-url]
+> BokBot.org main site
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+## Prerequisites
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+To install this project, you'll need the following things installed on your machine.
 
-(* = not included)
+1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
+2. [NodeJS](http://nodejs.org) - use the installer.
 
-AJ
-aj@lkn.io | @ajlkn
+## Local Installation
 
+1. Clone this repo, or download it into a directory of your choice.
+2. Inside the directory, run `npm install`.
 
-Credits:
+## Usage
 
-	Demo Images:
-		Unsplash (unsplash.com)
+**Development mode**
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc.
 
-	Other:
-		jQuery (jquery.com)
-		Misc. Sass functions (@HugoGiraudel)
-		Skel (skel.io)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
+```shell
+$ npm run gulp
+```
+
+**Deploy mode**
+
+You can easily deploy your site build with the command
+```shell
+$ npm run gulp deploy
+```
+
+## Tests
+
+If you want to run the tests on your local machine please install `gem install html-proofer`. And then run the tests using
+```shell
+$ htmlproofer ./_site
+```
+
+[license-image]: https://img.shields.io/badge/license-ISC-blue.svg
+[license-url]: https://github.com/joshuacox/BokBot.org/blob/master/LICENSE
+[travis-image]: https://travis-ci.org/joshuacox/BokBot.org.svg?branch=master
+[travis-url]: https://travis-ci.org/joshuacox/BokBot.org

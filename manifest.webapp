@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "BokBot.org",
+  "launch_path": "/index.html",
+  "description": "BokBot.org main site",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "BokBot.org",
+      "description": "BokBot.org main site"
+    }
+  }
+}

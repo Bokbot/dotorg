@@ -1,4 +1,6 @@
-# BokBot.org
+# BokBot.org 
+
+Protecting Backyard Dinosaurs
 
 [![license][license-image]][license-url] [![Build Status][travis-image]][travis-url]
 > BokBot.org main site

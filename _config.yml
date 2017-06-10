@@ -14,11 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BokBot.org
-email: your-email@domain.com
+email: info@bokbot.org
 #baseurl: "/BokBot.org" # the subpath of your site, e.g. /blog
-url: "https://nirgn975.github.io/joshuacox" # the base hostname & protocol for your site
-twitter_username: joshuacox
-github_username:  joshuacox
 
 # Build settings
 markdown: kramdown
@@ -78,9 +75,9 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
 
 #SOCIAL MEDIA
 github_username: bokbot
-twitter_username: bokbot
-facebook_username: bokbot
-org_instagram_username: bokbot
+# twitter_username: 
+# facebook_username: bokbot
+# org_instagram_username: bokbot
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section

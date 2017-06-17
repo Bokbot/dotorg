@@ -41,4 +41,4 @@ deploy:
 
 cleanup:
   script:
-    - echo 'this is not a cleanup'
+    - echo 'this is not a cleanup...'

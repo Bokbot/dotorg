@@ -53,10 +53,7 @@ set -ex \
 	&& rm ruby.tar.xz \
 	\
 	&& cd /usr/src/ruby \
-	\
-# hack in "ENABLE_PATH_CHECK" disabling to suppress:
-#   warning: Insecure world writable dir
-	&& { \
+  && { \
 		echo '#define ENABLE_PATH_CHECK 0'; \
 		echo; \
 		cat file.c; \

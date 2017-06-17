@@ -9,6 +9,7 @@ stages:
 before_script:
   - echo 'http://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
   - apk update
+  - apk add ruby
   - apk add bash xvfb chromium ruby-nokogiri
   - npm install -g lighthouse gulp
   - Xvfb :99 &

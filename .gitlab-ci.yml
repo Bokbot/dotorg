@@ -8,7 +8,7 @@ stages:
 
 before_script:
   - apk update
-  - apk add ruby
+  - apk add ruby libxml2-dev libxslt-dev
   - apk add bash xvfb chromium ruby-nokogiri
   - npm install -g lighthouse gulp
   - Xvfb :99 &

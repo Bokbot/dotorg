@@ -9,7 +9,7 @@ stages:
 before_script:
   - apk update
   - apk add ruby libxml2-dev libxslt-dev
-  - apk add bash xvfb chromium
+  - apk add bash xvfb chromium build-base
   - npm install -g lighthouse gulp
   - Xvfb :99 &
   - export DISPLAY=:99.0

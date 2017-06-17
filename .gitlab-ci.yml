@@ -1,12 +1,6 @@
-image: node:boron-alpine
+image: bokbot/dotorg:latest
 
 before_script:
-  - npm install npm -g
-  - bundle update
-  - npm install
-  - bundle install
-  - gem install html-proofer
-  - npm install -g lighthouse local-web-server
   - export DISPLAY=:99.0
   - export LIGHTHOUSE_CHROMIUM_PATH="$(pwd)/chrome-linux/chrome"
   - sh -e /etc/init.d/xvfb start

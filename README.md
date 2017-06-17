@@ -46,4 +46,3 @@ $ htmlproofer ./_site
 [travis-image]: https://travis-ci.org/joshuacox/BokBot.org.svg?branch=master
 [travis-url]: https://travis-ci.org/joshuacox/BokBot.org
 
-gitlab-ci ftw

@@ -18,3 +18,4 @@ gem "jekyll", "3.3.1"
 gem 'github-pages'
 gem 'jekyll-redirect-from'
 gem 'jekyll-feed'
+gem 'sass'

@@ -1,7 +1,6 @@
 image: node:boron-alpine
 
 before_script:
-  - sh ./rubyinst-alpine.sh
   - npm install npm -g
   - bundle update
   - npm install

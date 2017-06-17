@@ -1,3 +1,5 @@
+image: node:boron-alpine
+
 before_script:
   - npm install npm -g
   - bundle update

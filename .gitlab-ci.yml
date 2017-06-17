@@ -21,6 +21,9 @@ before_script:
 
 build:
   script:
+    - npm install gulp
+    - bundle install
+    - npm gulp install
     - npm run gulp build
 
 test:

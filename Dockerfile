@@ -1,3 +1,3 @@
-FROM webhostingcoopteam/rubynpm
+FROM webhostingcoopteam/rubynpm:latest
 
 CMD [ "node" ]

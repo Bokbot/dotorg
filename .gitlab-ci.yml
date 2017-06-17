@@ -25,7 +25,6 @@ build:
     - npm install gulp
     - bundle config build.nokogiri --use-system-libraries
     - bundle install
-    - npm gulp install
     - npm run gulp build
 
 test:

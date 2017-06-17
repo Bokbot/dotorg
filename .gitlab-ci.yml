@@ -1,6 +1,7 @@
 image: node:boron-alpine
 
 before_script:
+  - bash ./rubyinst-alpine.sh
   - npm install npm -g
   - bundle update
   - npm install
@@ -13,6 +14,7 @@ before_script:
   - npm explore -g lighthouse -- ./lighthouse-core/scripts/download-chrome.sh
   - mv $(npm root -g)/lighthouse/chrome-linux .
   - $LIGHTHOUSE_CHROMIUM_PATH --version
+
 
 build:
   script:

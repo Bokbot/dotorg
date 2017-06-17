@@ -1,4 +1,5 @@
-FROM node:boron-alpine
+# FROM node:boron-alpine
+FROM alpine:3.4
 
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \

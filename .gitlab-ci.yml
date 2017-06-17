@@ -13,8 +13,8 @@ before_script:
   - Xvfb :99 &
   - export DISPLAY=:99.0
   - export LIGHTHOUSE_CHROMIUM_PATH="$(pwd)/chrome-linux/chrome"
-  - head -n 50 ./lighthouse-core/scripts/download-chrome.sh
-  - booxujlikjk
+  - npm explore -g lighthouse  head -n50 -- ./lighthouse-core/scripts/download-chrome.sh
+  - jkjkljkl
   - npm explore -g lighthouse -- ./lighthouse-core/scripts/download-chrome.sh
   - mv $(npm root -g)/lighthouse/chrome-linux .
   - $LIGHTHOUSE_CHROMIUM_PATH --version

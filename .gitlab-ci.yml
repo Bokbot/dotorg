@@ -7,6 +7,8 @@ stages:
   - cleanup
 
 before_script:
+  - apk update
+  - apk add bash
   - npm install -g lighthouse
   - Xvfb :99 &
   - export DISPLAY=:99.0

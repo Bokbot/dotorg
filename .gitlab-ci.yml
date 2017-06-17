@@ -1,5 +1,11 @@
 image: bokbot/dotorg:latest
 
+stages:
+  - build
+  - test
+  - deploy
+  - cleanup
+
 before_script:
   - export DISPLAY=:99.0
   - export LIGHTHOUSE_CHROMIUM_PATH="$(pwd)/chrome-linux/chrome"
@@ -23,3 +29,7 @@ test:
 deploy:
   script:
     - echo 'this is not a deploy'
+
+cleanup:
+  script:
+    - echo 'this is not a cleanup'

@@ -7,9 +7,12 @@ stages:
   - cleanup
 
 before_script:
-  - apk update
-  - apk add ruby libxml2-dev libxslt-dev
-  - apk add bash xvfb chromium build-base
+  #- apk update
+  #- apk add ruby libxml2-dev libxslt-dev
+  #- apk add bash xvfb chromium build-base
+  - apt update
+  - apt install -yqq ruby libxml2-dev libxslt-dev
+  - apt install -yqq bash xvfb chromium build-essential
   - npm install -g lighthouse gulp
   - Xvfb :99 &
   - export DISPLAY=:99.0
